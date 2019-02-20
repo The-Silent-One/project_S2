@@ -1,0 +1,17 @@
+.root{
+    animation: -fx-background-color infinite 20s;
+        }
+        @keyframes -fx-background-color{
+            25%{
+                -fx-background-color: #FFC0CB;
+            }
+            50%{
+                -fx-background-color: #FFB6C1;
+            }
+            75%{
+                -fx-background-color: #FF69B4;
+            }
+            100%{
+                -fx-background-color: #FF1493;
+            }
+        }
